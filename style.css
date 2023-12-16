@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    background-color: #27296d;
+    color: #f5c7f7;
+    height: 6rem;
+    text-align: center;
+    line-height: 6rem;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+    gap: 3.5rem;
+   
+}
+
+.choice{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.choice:hover{
+   opacity:0.9;
+   background-color: #a393eb;
+}
+img{
+    height: 185px;
+    width: 185px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.score-bord{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    margin-top:5.5rem;
+    font-size: 2rem;
+    color: #27296d;
+}
+
+#userscore,
+#computerscore{
+    font-size: 3.5rem;
+    padding-left: 20px;
+}
+
+.msg-container{
+    margin-top: 6.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.none{
+    text-align: center;
+    background-color: #27296d;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    display: inline;
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+}
+
+.wingame{
+    text-align: center;
+    background-color: rgb(28, 253, 28);
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+    display: inline;
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+}
+
+.losegame{
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    display: inline;
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+}
+
